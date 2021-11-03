@@ -1,0 +1,11 @@
+<div className="form-group">
+                                        <label><input id="check_1" name="check_1"
+                                            type="checkbox" required><small>I read & agree to terms & conditions</small></input>
+                                            <div className="invalid-feedback">You must check the box</div>
+                                        </label>                                    
+                                    </div>
+
+
+.mycard
+                                    -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
