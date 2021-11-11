@@ -34,6 +34,13 @@ const App = () => {
                                         <div className="invalid-feedback">Please fill out this field</div>                                    
                                     </div>
 
+                                    <div className="form-group">
+                                        <i className="fas fa-lock"></i>
+                                        <input className="myInput" type="password" placeholder="Confirm Password"
+                                        id="password" required></input>
+                                        <div className="invalid-feedback">Please fill out this field</div>                                    
+                                    </div>
+
                                     
 
                                     <input type="submit" className="butt" value="Create Account"></input>
@@ -43,14 +50,11 @@ const App = () => {
 
                         <div className="col-md-6">
                             <div className="myRightCtn">
-                                <div className="box"><header>Hello World</header>
-                                
-                                    <p>Lorem ipsum dolor sit amet,consectetur adispicing
-                                    elit,
-                                    sed do eisumod tempor inciduent ut labore at dolere mogna
-                                    aliqua. Ut enim ad minim veniam.
+                                <div className="box"><header>Welcome</header>
+                                    <p className="text">
+                                        Please Register here in Order To View Luxiourious
+                                        Hotel Web Page Application
                                     </p>
-                                    <input type="button" className="butt_out" value="Learn More"/>
                                 </div>
                             </div>
                         </div>

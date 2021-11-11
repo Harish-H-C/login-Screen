@@ -5,7 +5,8 @@
 }
 
 body{
-    background: #fbf3ff;
+    /* background: #fbf3ff; */
+    background: #FFF3E0;
 }
 .container {
     position: absolute;
@@ -19,7 +20,8 @@ body{
 
 .myRightCtn {
     position: relative;
-    background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+    /* background-image: linear-gradient(45deg, #f046ff, #9b00e8); */
+    background-image: linear-gradient(45deg, #FFE0B2, #FFA726);
     border-radius: 25px;
     height: 100%;
     padding: 25px;
@@ -40,7 +42,8 @@ body{
     padding-left: 50px;
 }
 .myLeftCtn header{
-    color: blueviolet;
+    /* color: blueviolet; */
+    color: #FFA726;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -86,7 +89,7 @@ body{
 }
 
 .myLeftCtn .butt{
-    background: linear-gradient(45deg, #f046ff, #9b00e8);
+    background: linear-gradient(45deg, #FFE0B2, #FFA726);
     color:  #fff;
     width: 230px;
     border: none;
@@ -97,14 +100,15 @@ body{
     box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
 }
 .myLeftCtn .butt:hover{
-    background: linear-gradient(45deg, #c85bff, #b726ff);
+    background: linear-gradient(45deg, #FFF176, #FFCC80);
 }
 .myLeftCtn .butt:focus{
     outline: none;
 }
 .myLeftCtn .fas{
     position: relative;
-    color: #bb36fd;
+    /* color: #bb36fd; */
+    color:#FFCC80;
     left:36px;
 }
 .butt_out{
@@ -123,4 +127,7 @@ body{
 }
 .butt_out:hover{
     border: 2px solid#eecbff;
+}
+.text{
+    color: black;
 }
